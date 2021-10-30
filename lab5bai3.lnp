@@ -1,0 +1,6 @@
+--cpu Cortex-M3
+".\lab5bai3.o"
+--strict --scatter ".\lab5bai3.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\lab5bai3.map" -o .\lab5bai3.axf

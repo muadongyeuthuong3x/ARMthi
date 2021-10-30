@@ -1,0 +1,146 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             RESET, DATA, READONLY
+    2 00000000 20001000        DCD              0x20001000
+    3 00000004 00000000        DCD              Main
+    4 00000008 00000015 
+                       soA     DCD              21
+    5 0000000C 00000004 
+                       soB     DCD              4
+    6 00000010                 AREA             MYCODE, CODE, READONLY
+    7 00000000                 ENTRY                        ;Khai bao diem vao 
+                                                            chuong trinh
+    8 00000000         
+    9 00000000         
+   10 00000000         Main
+   11 00000000 F85F 1004       LDR              R1 ,soA
+   12 00000004 F85F 2004       LDR              R2 ,soB
+   13 00000008 F04F 0300       MOV              R3 ,#0      ; so nguyen
+   14 0000000C F04F 0400       MOV              R4 ,#0      ; so du
+   15 00000010         
+   16 00000010         
+   17 00000010         
+   18 00000010 4291            CMP              R1 ,R2
+   19 00000012 DC01            BGT              trur2       ; th > hon
+   20 00000014 DB0C            BLT              STOP
+   21 00000016 D006            BEQ              bang        ; th bang
+   22 00000018         
+   23 00000018         trur2                                ; th >
+   24 00000018 EBA1 0102       SUB              R1 ,R2
+   25 0000001C F103 0301       ADD              R3 ,#1
+   26 00000020 4291            CMP              R1 ,R2
+   27 00000022 D2F9            BHS              trur2
+   28 00000024 DB01            BLT              STOPdu      ; th <
+   29 00000026         
+   30 00000026         bang
+   31 00000026 F103 0301       ADD              R3 ,#1
+   32 0000002A         
+   33 0000002A         STOPdu
+   34 0000002A F1A3 0301       SUB              R3 ,#1
+   35 0000002E 440C            ADD              R4,R1
+   36 00000030         
+   37 00000030         
+   38 00000030         STOP
+   39 00000030         
+   40 00000030 440C            ADD              R4 ,R1
+   41 00000032         
+   42 00000032         
+   43 00000032         
+   44 00000032         
+   45 00000032 BF00            NOP
+   46 00000034                 END
+Command Line: --debug --xref --cpu=Cortex-M3 --apcs=interwork --depend=.\lab3ba
+i3.d -o.\lab3bai3.o -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include -IC:\Kei
+l\ARM\Inc\ST\STM32F10x --list=.\lab3bai3.lst lab3bai3.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+RESET 00000000
+
+Symbol: RESET
+   Definitions
+      At line 1 in file lab3bai3.s
+   Uses
+      None
+Comment: RESET unused
+soA 00000008
+
+Symbol: soA
+   Definitions
+      At line 4 in file lab3bai3.s
+   Uses
+      At line 11 in file lab3bai3.s
+Comment: soA used once
+soB 0000000C
+
+Symbol: soB
+   Definitions
+      At line 5 in file lab3bai3.s
+   Uses
+      At line 12 in file lab3bai3.s
+Comment: soB used once
+3 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+MYCODE 00000000
+
+Symbol: MYCODE
+   Definitions
+      At line 6 in file lab3bai3.s
+   Uses
+      None
+Comment: MYCODE unused
+Main 00000000
+
+Symbol: Main
+   Definitions
+      At line 10 in file lab3bai3.s
+   Uses
+      At line 3 in file lab3bai3.s
+Comment: Main used once
+STOP 00000030
+
+Symbol: STOP
+   Definitions
+      At line 38 in file lab3bai3.s
+   Uses
+      At line 20 in file lab3bai3.s
+Comment: STOP used once
+STOPdu 0000002A
+
+Symbol: STOPdu
+   Definitions
+      At line 33 in file lab3bai3.s
+   Uses
+      At line 28 in file lab3bai3.s
+Comment: STOPdu used once
+bang 00000026
+
+Symbol: bang
+   Definitions
+      At line 30 in file lab3bai3.s
+   Uses
+      At line 21 in file lab3bai3.s
+Comment: bang used once
+trur2 00000018
+
+Symbol: trur2
+   Definitions
+      At line 23 in file lab3bai3.s
+   Uses
+      At line 19 in file lab3bai3.s
+      At line 27 in file lab3bai3.s
+
+6 symbols
+339 symbols in table

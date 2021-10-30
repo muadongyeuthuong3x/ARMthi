@@ -1,0 +1,289 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Manh Cuong\Desktop\ARMthi\lab5bai3.uvproj
+Project File Date:  10/14/2021
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(43): error: A1110E: Expected constant expression
+lab5bai3.s(53): error: A1163E: Unknown opcode sodu1 , expecting opcode or Macro
+lab5bai3.s(54): error: A1110E: Expected constant expression
+lab5bai3.s(64): error: A1163E: Unknown opcode sodu2 , expecting opcode or Macro
+lab5bai3.s(65): error: A1110E: Expected constant expression
+".\lab5bai3.axf" - 5 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(29): error: A1516E: Bad symbol 'LOOP3', not defined or external
+lab5bai3.s(30): error: A1516E: Bad symbol 'LOOP5', not defined or external
+lab5bai3.s(31): error: A1516E: Bad symbol 'LOOP7', not defined or external
+".\lab5bai3.axf" - 3 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(43): error: A1110E: Expected constant expression
+lab5bai3.s(53): error: A1163E: Unknown opcode sodu1 , expecting opcode or Macro
+lab5bai3.s(54): error: A1110E: Expected constant expression
+lab5bai3.s(64): error: A1163E: Unknown opcode sodu2 , expecting opcode or Macro
+lab5bai3.s(65): error: A1110E: Expected constant expression
+".\lab5bai3.axf" - 5 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(43): error: A1110E: Expected constant expression
+lab5bai3.s(53): error: A1163E: Unknown opcode sodu1 , expecting opcode or Macro
+lab5bai3.s(54): error: A1110E: Expected constant expression
+lab5bai3.s(64): error: A1163E: Unknown opcode sodu2 , expecting opcode or Macro
+lab5bai3.s(65): error: A1110E: Expected constant expression
+".\lab5bai3.axf" - 5 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(43): error: A1110E: Expected constant expression
+lab5bai3.s(53): error: A1163E: Unknown opcode sodu1 , expecting opcode or Macro
+lab5bai3.s(54): error: A1110E: Expected constant expression
+lab5bai3.s(64): error: A1163E: Unknown opcode soduuu , expecting opcode or Macro
+lab5bai3.s(65): error: A1110E: Expected constant expression
+".\lab5bai3.axf" - 5 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(43): error: A1110E: Expected constant expression
+lab5bai3.s(53): error: A1163E: Unknown opcode soduu , expecting opcode or Macro
+lab5bai3.s(54): error: A1110E: Expected constant expression
+lab5bai3.s(64): error: A1163E: Unknown opcode soduuu , expecting opcode or Macro
+lab5bai3.s(65): error: A1110E: Expected constant expression
+".\lab5bai3.axf" - 5 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(43): error: A1110E: Expected constant expression
+lab5bai3.s(53): error: A1163E: Unknown opcode soduu , expecting opcode or Macro
+lab5bai3.s(54): error: A1110E: Expected constant expression
+lab5bai3.s(64): error: A1163E: Unknown opcode soduuu , expecting opcode or Macro
+lab5bai3.s(65): error: A1110E: Expected constant expression
+".\lab5bai3.axf" - 5 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(29): error: A1516E: Bad symbol 'LOOP', not defined or external
+lab5bai3.s(30): error: A1516E: Bad symbol 'LOOPP', not defined or external
+lab5bai3.s(31): error: A1516E: Bad symbol 'LOOPP', not defined or external
+".\lab5bai3.axf" - 3 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(32): error: A1516E: Bad symbol 'LOOP', not defined or external
+lab5bai3.s(33): error: A1516E: Bad symbol 'LOOPP', not defined or external
+lab5bai3.s(34): error: A1516E: Bad symbol 'LOOPP', not defined or external
+".\lab5bai3.axf" - 3 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+linking...
+.\lab5bai3.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=52 RO-data=12 RW-data=0 ZI-data=0  
+".\lab5bai3.axf" - 0 Errors, 1 Warning(s).
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(32): error: A1516E: Bad symbol 'LOOP', not defined or external
+lab5bai3.s(33): error: A1516E: Bad symbol 'LOOPP', not defined or external
+lab5bai3.s(34): error: A1516E: Bad symbol 'LOOPP', not defined or external
+".\lab5bai3.axf" - 3 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(32): error: A1516E: Bad symbol 'LOOP', not defined or external
+lab5bai3.s(33): error: A1516E: Bad symbol 'LOOPP', not defined or external
+".\lab5bai3.axf" - 2 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(32): error: A1516E: Bad symbol 'LOOP', not defined or external
+".\lab5bai3.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(34): error: A1516E: Bad symbol 'LOOP', not defined or external
+".\lab5bai3.axf" - 1 Errors, 0 Warning(s).
+Target not created
+assembling lab5bai3.s...
+lab5bai3.s(45): error: A1110E: Expected constant expression
+"lab5bai3.s" - 1 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(45): error: A1110E: Expected constant expression
+".\lab5bai3.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+linking...
+.\lab5bai3.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=68 RO-data=12 RW-data=0 ZI-data=0  
+".\lab5bai3.axf" - 0 Errors, 1 Warning(s).
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(45): error: A1110E: Expected constant expression
+".\lab5bai3.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+linking...
+.\lab5bai3.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=84 RO-data=12 RW-data=0 ZI-data=0  
+".\lab5bai3.axf" - 0 Errors, 1 Warning(s).
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(55): error: A1163E: Unknown opcode soduu , expecting opcode or Macro
+lab5bai3.s(56): error: A1110E: Expected constant expression
+lab5bai3.s(66): error: A1163E: Unknown opcode soduuu , expecting opcode or Macro
+lab5bai3.s(67): error: A1110E: Expected constant expression
+".\lab5bai3.axf" - 4 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(55): error: A1163E: Unknown opcode soduu , expecting opcode or Macro
+lab5bai3.s(56): error: A1110E: Expected constant expression
+lab5bai3.s(66): error: A1163E: Unknown opcode soduuu , expecting opcode or Macro
+lab5bai3.s(67): error: A1110E: Expected constant expression
+".\lab5bai3.axf" - 4 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+linking...
+.\lab5bai3.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=84 RO-data=12 RW-data=0 ZI-data=0  
+".\lab5bai3.axf" - 0 Errors, 1 Warning(s).
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(56): error: A1163E: Unknown opcode soduu , expecting opcode or Macro
+lab5bai3.s(57): error: A1110E: Expected constant expression
+".\lab5bai3.axf" - 2 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(55): error: A1163E: Unknown opcode soduu , expecting opcode or Macro
+".\lab5bai3.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+linking...
+.\lab5bai3.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=88 RO-data=12 RW-data=0 ZI-data=0  
+".\lab5bai3.axf" - 0 Errors, 1 Warning(s).
+Build target 'Target 1'
+assembling lab5bai3.s...
+linking...
+.\lab5bai3.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=92 RO-data=12 RW-data=0 ZI-data=0  
+".\lab5bai3.axf" - 0 Errors, 1 Warning(s).
+Build target 'Target 1'
+assembling lab5bai3.s...
+linking...
+.\lab5bai3.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=92 RO-data=12 RW-data=0 ZI-data=0  
+".\lab5bai3.axf" - 0 Errors, 1 Warning(s).
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(54): error: A1516E: Bad symbol 'soduu', not defined or external
+".\lab5bai3.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(55): error: A1163E: Unknown opcode soduu , expecting opcode or Macro
+".\lab5bai3.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+linking...
+.\lab5bai3.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=96 RO-data=12 RW-data=0 ZI-data=0  
+".\lab5bai3.axf" - 0 Errors, 1 Warning(s).
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(57): error: A1516E: Bad symbol 'LOOPPP', not defined or external
+".\lab5bai3.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(67): error: A1163E: Unknown opcode soduuu , expecting opcode or Macro
+".\lab5bai3.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(58): error: A1516E: Bad symbol 'LOOPPP', not defined or external
+".\lab5bai3.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+linking...
+.\lab5bai3.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=100 RO-data=12 RW-data=0 ZI-data=0  
+".\lab5bai3.axf" - 0 Errors, 1 Warning(s).
+Build target 'Target 1'
+assembling lab5bai3.s...
+linking...
+.\lab5bai3.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=116 RO-data=12 RW-data=0 ZI-data=0  
+".\lab5bai3.axf" - 0 Errors, 1 Warning(s).
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(36): error: A1647E: Bad register name symbol, expected Integer register
+".\lab5bai3.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(36): error: A1647E: Bad register name symbol, expected Integer register
+".\lab5bai3.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(36): error: A1647E: Bad register name symbol, expected Integer register
+".\lab5bai3.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(32): error: A1647E: Bad register name symbol, expected Integer register
+lab5bai3.s(35): error: A1647E: Bad register name symbol, expected Integer register
+lab5bai3.s(36): error: A1112E: Expected address expression
+".\lab5bai3.axf" - 3 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(34): error: A1647E: Bad register name symbol, expected Integer register
+lab5bai3.s(35): error: A1112E: Expected address expression
+".\lab5bai3.axf" - 2 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+linking...
+.\lab5bai3.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=116 RO-data=12 RW-data=0 ZI-data=0  
+".\lab5bai3.axf" - 0 Errors, 1 Warning(s).
+Build target 'Target 1'
+assembling lab5bai3.s...
+lab5bai3.s(37): error: A1163E: Unknown opcode R2,#1 , expecting opcode or Macro
+".\lab5bai3.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling lab5bai3.s...
+linking...
+.\lab5bai3.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=116 RO-data=12 RW-data=0 ZI-data=0  
+".\lab5bai3.axf" - 0 Errors, 1 Warning(s).
+Build target 'Target 1'
+assembling lab5bai3.s...
+linking...
+.\lab5bai3.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=120 RO-data=12 RW-data=0 ZI-data=0  
+".\lab5bai3.axf" - 0 Errors, 1 Warning(s).
+Build target 'Target 1'
+assembling lab5bai3.s...
+linking...
+.\lab5bai3.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=124 RO-data=12 RW-data=0 ZI-data=0  
+".\lab5bai3.axf" - 0 Errors, 1 Warning(s).

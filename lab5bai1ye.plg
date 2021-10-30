@@ -1,0 +1,16 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Manh Cuong\Desktop\ARMthi\lab5bai1ye.uvproj
+Project File Date:  10/14/2021
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Lab5bai1ye.s...
+Lab5bai1ye.s(38): warning: A1865W: '#' not seen before constant expression
+linking...
+.\lab5bai1ye.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=108 RO-data=16 RW-data=8 ZI-data=0  
+".\lab5bai1ye.axf" - 0 Errors, 2 Warning(s).

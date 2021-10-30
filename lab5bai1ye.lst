@@ -1,0 +1,215 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             RESET, DATA, READONLY
+    2 00000000 20002000        DCD              0X20002000
+    3 00000004 00000000        DCD              MAIN
+    4 00000008 07 04 02 
+              00       DULIEU  DCB              7,4,2,0
+    5 0000000C 04      SPT     DCB              4
+    6 0000000D                 AREA             DATA1, DATA, READWRITE
+    7 00000000 00      RESULT  DCB              0
+    8 00000001                 AREA             DATA2, DATA, READWRITE
+    9 00000000 00      RESULT2 DCB              0
+   10 00000001                 AREA             HUU, CODE, READONLY
+   11 00000000                 ENTRY
+   12 00000000         MAIN
+   13 00000000 F81F 0004       LDRB             R0, SPT     ; R0 = 4
+   14 00000004 F1A0 0001       SUB              R0, #1      ; R0 = R0 -1
+   15 00000008 4915            LDR              R1, =DULIEU ;DIA CHI DT CUA DUL
+                                                            IEU
+   16 0000000A 4A16            LDR              R2, =RESULT ;DIA CHI CUA RESULT
+                                                            
+   17 0000000C F102 020A       ADD              R2,#10
+   18 00000010 F04F 0308       MOV              R3, #8      ;
+   19 00000014 F04F 0400       MOV              R4, #0      ; KQ O HE 10
+   20 00000018         LOOP1
+   21 00000018 2800            CMP              R0, #0
+   22 0000001A D00D            BEQ              TG
+   23 0000001C F811 5B01       LDRB             R5, [R1], #1 ; 
+   24 00000020 F04F 0601       MOV              R6, #1      ; I
+   25 00000024         NHAN
+   26 00000024 FB05 F503       MUL              R5, R3      ;NHAN
+   27 00000028 F106 0601       ADD              R6, #1      ;TRU DI 1
+   28 0000002C 4286            CMP              R6, R0      ; KIEM TRA
+   29 0000002E DDF9            BLE              NHAN        ; NHO HON NHAN TIEP
+                                                            
+   30 00000030 442C            ADD              R4, R5      ; ADD LAY HE CO SÓ 
+                                                            1O
+   31 00000032 F1A0 0001       SUB              R0, #1
+   32 00000036 E7EF            B                LOOP1
+   33 00000038         TG                                   ; LAY PHAN TU CUOI 
+                                                            CUNG RA
+   34 00000038 780D            LDRB             R5, [R1]
+   35 0000003A 442C            ADD              R4, R5
+   36 0000003C 6014            STR              R4, [R2]
+   37 0000003E 4B0A            LDR              R3, =RESULT2
+   38 00000040 F04F 040F       MOV              R4, 0XF     ; MASK
+   39 00000044         LOOP2                                ;
+   40 00000044 F812 5B01       LDRB             R5, [R2], #1
+   41 00000048 2D00            CMP              R5, #0
+   42 0000004A D009            BEQ              STOP
+   43 0000004C EA4F 1615       MOV              R6, R5, LSR #0X4
+   44 00000050 EA4F 2606       MOV              R6, R6, LSL #0X8
+   45 00000054 EA05 0504       AND              R5, R5, R4
+   46 00000058 442E            ADD              R6, R5
+   47 0000005A F823 6B02       STRH             R6, [R3], #2
+   48 0000005E E7F1            B                LOOP2
+   49 00000060         STOP
+   50 00000060                 END
+              00000000 
+              00000000 
+              00000000 
+
+
+
+ARM Macro Assembler    Page 2 
+
+
+Command Line: --debug --xref --cpu=Cortex-M3 --apcs=interwork --depend=.\lab5ba
+i1ye.d -o.\lab5bai1ye.o -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include -IC:
+\Keil\ARM\Inc\ST\STM32F10x --list=.\lab5bai1ye.lst Lab5bai1ye.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+DULIEU 00000008
+
+Symbol: DULIEU
+   Definitions
+      At line 4 in file Lab5bai1ye.s
+   Uses
+      At line 15 in file Lab5bai1ye.s
+Comment: DULIEU used once
+RESET 00000000
+
+Symbol: RESET
+   Definitions
+      At line 1 in file Lab5bai1ye.s
+   Uses
+      None
+Comment: RESET unused
+SPT 0000000C
+
+Symbol: SPT
+   Definitions
+      At line 5 in file Lab5bai1ye.s
+   Uses
+      At line 13 in file Lab5bai1ye.s
+Comment: SPT used once
+3 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+DATA1 00000000
+
+Symbol: DATA1
+   Definitions
+      At line 6 in file Lab5bai1ye.s
+   Uses
+      None
+Comment: DATA1 unused
+RESULT 00000000
+
+Symbol: RESULT
+   Definitions
+      At line 7 in file Lab5bai1ye.s
+   Uses
+      At line 16 in file Lab5bai1ye.s
+Comment: RESULT used once
+2 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+DATA2 00000000
+
+Symbol: DATA2
+   Definitions
+      At line 8 in file Lab5bai1ye.s
+   Uses
+      None
+Comment: DATA2 unused
+RESULT2 00000000
+
+Symbol: RESULT2
+   Definitions
+      At line 9 in file Lab5bai1ye.s
+   Uses
+      At line 37 in file Lab5bai1ye.s
+Comment: RESULT2 used once
+2 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+HUU 00000000
+
+Symbol: HUU
+   Definitions
+      At line 10 in file Lab5bai1ye.s
+   Uses
+      None
+Comment: HUU unused
+LOOP1 00000018
+
+Symbol: LOOP1
+   Definitions
+      At line 20 in file Lab5bai1ye.s
+   Uses
+      At line 32 in file Lab5bai1ye.s
+Comment: LOOP1 used once
+LOOP2 00000044
+
+Symbol: LOOP2
+   Definitions
+      At line 39 in file Lab5bai1ye.s
+   Uses
+      At line 48 in file Lab5bai1ye.s
+Comment: LOOP2 used once
+MAIN 00000000
+
+Symbol: MAIN
+   Definitions
+      At line 12 in file Lab5bai1ye.s
+   Uses
+      At line 3 in file Lab5bai1ye.s
+Comment: MAIN used once
+NHAN 00000024
+
+Symbol: NHAN
+   Definitions
+      At line 25 in file Lab5bai1ye.s
+   Uses
+      At line 29 in file Lab5bai1ye.s
+Comment: NHAN used once
+STOP 00000060
+
+Symbol: STOP
+   Definitions
+      At line 49 in file Lab5bai1ye.s
+   Uses
+      At line 42 in file Lab5bai1ye.s
+Comment: STOP used once
+TG 00000038
+
+Symbol: TG
+   Definitions
+      At line 33 in file Lab5bai1ye.s
+   Uses
+      At line 22 in file Lab5bai1ye.s
+Comment: TG used once
+7 symbols
+346 symbols in table
